@@ -1,4 +1,4 @@
-# Travlr Getaways — Full Stack Web Application
+# Travlr Getaways: Full Stack Web Application
 
 ## CS 465: Full Stack Development
 
