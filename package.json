@@ -1,0 +1,22 @@
+{
+  "name": "travlr-getaways",
+  "version": "1.0.0",
+  "description": "CS 465 Module Seven secure full stack Travlr application with JWT authentication",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "seed": "node app_api/models/seed.js",
+    "admin": "cd app_admin && npm start",
+    "admin:build": "cd app_admin && npm run build"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^8.9.5",
+    "dotenv": "^16.4.7",
+    "jsonwebtoken": "^9.0.2",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "express-jwt": "^8.4.1"
+  }
+}
